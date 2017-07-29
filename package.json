@@ -34,9 +34,6 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
     ],
-    "coveragePathIgnorePatterns": [
-      "<rootDir>/src/index.ts"
-    ],
     "coverageReporters": [
       "text"
     ],
@@ -58,6 +55,7 @@
   },
   "license": "MIT",
   "main": "dist/withNotificationSystem.js",
+  "types": "dist/withNotificationSystem.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "build:dev": "tsc --noEmit --pretty --watch",

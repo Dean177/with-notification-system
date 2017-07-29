@@ -6,8 +6,6 @@ import { Notification, System } from 'react-notification-system';
 
 type ChildContext = { notificationSystem: System | null };
 
-type ComponentDecorator = <Props, EnhancedProps>(component: ComponentType<EnhancedProps>) => ComponentType<Props>;
-
 export type ResultNotification = Notification & { uid: number };
 
 export type Props = { children: ReactNode };
