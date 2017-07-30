@@ -54,6 +54,7 @@
     }
   },
   "license": "MIT",
+  "files": ["dist"],
   "main": "dist/withNotificationSystem.js",
   "types": "dist/withNotificationSystem.d.ts",
   "scripts": {
