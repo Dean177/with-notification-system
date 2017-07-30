@@ -1,7 +1,7 @@
 {
   "author": "Dean Merchant",
   "name": "with-notification-system",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "lodash": "4.17.4",
     "prop-types": "15.5.10"
@@ -54,7 +54,9 @@
     }
   },
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/withNotificationSystem.js",
   "types": "dist/withNotificationSystem.d.ts",
   "scripts": {
