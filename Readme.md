@@ -9,9 +9,10 @@ Provides [react-notification-system](https://github.com/igorprado/react-notifica
 
 `yarn add with-notifications-system`
 
-## Usage
+[![Image of Yaktocat](example/example-screenshot.png)](dean177.github.io/with-notification-system/)
 
-![Image of Yaktocat](example/example-screenshot.png)
+
+## Usage
 
 Check out the [live documentation](https://dean177.github.io/with-notification-system/) and the [example](https://github.com/Dean177/with-url-state/tree/master/example) directory
 
