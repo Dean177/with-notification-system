@@ -26,7 +26,8 @@ class DevErrorBoundary extends React.Component<{}, ErrorBoundaryState> {
           <h2>Error</h2>
           <p>
             If you are seeing this please create an issue on{' '}
-            <a>Github</a> which includes the following information:
+            <a href="https://github.com/Dean177/with-notification-system/issues">Github</a> which includes the following
+            information:
           </p>
           <pre>{JSON.stringify(this.state.error, null, 2)}</pre>
           <h2>Component</h2>

@@ -14,6 +14,10 @@
   version "8.0.47"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.47.tgz#968e596f91acd59069054558a00708c445ca30c2"
 
+"@types/prop-types@15.5.2":
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.2.tgz#3c6b8dceb2906cc87fe4358e809f9d20c8d59be1"
+
 "@types/react-codemirror@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/react-codemirror/-/react-codemirror-1.0.0.tgz#acd3877537657117a38d46855984df4d3407415d"
@@ -5713,8 +5717,9 @@ window-size@0.1.0:
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
 "with-notification-system@file:..":
-  version "1.0.0"
+  version "0.9.0"
   dependencies:
+    "@types/prop-types" "15.5.2"
     "@types/react-notification-system" "0.2.35"
     prop-types "^15.6.0"
     react-notification-system "0.2.16"
