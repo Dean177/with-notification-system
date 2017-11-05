@@ -1,6 +1,7 @@
 # with-notification-system
 
 [![CircleCI](https://circleci.com/gh/Dean177/with-notification-system.svg?style=svg)](https://circleci.com/gh/Dean177/with-notification-system)
+[![Npm](https://badge.fury.io/js/with-notification-system.svg)](https://www.npmjs.com/package/with-notification-system)
 
 Provides [react-notification-system](https://github.com/igorprado/react-notification-system) as a [higher-order-component](https://facebook.github.io/react/docs/higher-order-components.html).
 
