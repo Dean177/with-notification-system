@@ -35,7 +35,7 @@ describe('withNotificationsSystem', () => {
     };
 
   const SuccessButton = (props: NotificationProps) =>
-    <button onClick={() => props.notification.create({})}>Succeed</button>;
+    <button onClick={() => props.notification.add({})}>Succeed</button>;
 
   const ConnectedSuccessButton = withNotifications<{}>(SuccessButton);
 

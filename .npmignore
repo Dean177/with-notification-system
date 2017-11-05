@@ -1,6 +1,8 @@
+.circleci
 coverage
+docs
 node_modules
-yarn-error.log
-yarn.lock
 setupTestFramework.js
 src
+yarn.lock
+yarn-error.log
