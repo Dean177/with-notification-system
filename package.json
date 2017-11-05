@@ -62,7 +62,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "build:dev": "tsc --pretty --watch",
-    "build:docs": "cd example && yarn && yarn build && cp -r ./build ../docs",
+    "build:docs": "rm -r ./docs && cd example && yarn && yarn build && cp -r ./build/ ../docs",
     "lint": "tslint src/**/*.tsx examples/src/**",
     "prepublish": "yarn test && yarn build && yarn build:docs",
     "start": "concurrently -n \"build,test\" \"npm run build:dev\" \"npm run test:dev\"",
