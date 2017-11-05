@@ -61,12 +61,12 @@
   "types": "dist/withNotificationSystem.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "build:docs": "cd example && yarn && yarn build && cp -r ./build ../docs",
     "build:dev": "tsc --pretty --watch",
-    "start": "concurrently -n \"build,test\" \"npm run build:dev\" \"npm run test:dev\"",
+    "build:docs": "cd example && yarn && yarn build && cp -r ./build ../docs",
     "lint": "tslint src/**/*.tsx examples/src/**",
+    "prepublish": "yarn test && yarn build && yarn build:docs",
+    "start": "concurrently -n \"build,test\" \"npm run build:dev\" \"npm run test:dev\"",
     "test": "jest --coverage",
-    "test:dev": "jest --watch",
-    "prepublish": "yarn test && yarn build"
+    "test:dev": "jest --watch"
   }
 }

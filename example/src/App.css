@@ -1,0 +1,44 @@
+.App {
+  flex-direction: column;
+}
+.App .content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.App .content .status-icons {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App .content .status-icons .status-icon {
+  margin-left: 10px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  font-size: large;
+  padding: 20px;
+  text-align: center;
+}
+
+.ErrorBoundary {
+  padding: 20px;
+}
+
+.ButtonGroup {
+  margin-bottom: 20px;
+}
+
+.ButtonGroup button {
+  margin-right: 10px;
+}
+
+.CodeMirror {
+  height: auto;
+}
