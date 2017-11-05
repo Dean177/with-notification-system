@@ -10,7 +10,7 @@ Provides [react-notification-system](https://github.com/igorprado/react-notifica
 
 `yarn add with-notifications-system`
 
-[![Image of Yaktocat](example/example-screenshot.png)](dean177.github.io/with-notification-system/)
+[![Demo image](example/example-screenshot.png)](dean177.github.io/with-notification-system/)
 
 
 ## Usage
