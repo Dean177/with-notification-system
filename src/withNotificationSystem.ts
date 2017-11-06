@@ -24,7 +24,7 @@ export class NotificationSystemProvider extends Component<Props, State> implemen
   saveSystemRef = (notificationSystem: System): void =>
     this.setState({ notificationSystem })
 
-  render(): React.ReactNode {
+  render() {
     const { className, children, ...notificationSystemProps } = this.props
     return createElement('div', {
       className: className || 'NotificationSystemProvider',
