@@ -65,7 +65,7 @@
     "build:dev": "tsc --pretty --watch",
     "build:docs": "rm -rf ./docs && cd example && yarn && rm -rf ./node_modules/with-notification-system/node_modules/react && yarn build && cp -r ./build ../docs",
     "lint": "tslint src/**/*.tsx src/**/*.ts examples/src/**",
-    "prepublish": "yarn build && yarn build:docs && yarn test",
+    "prepublish": "yarn build && yarn build:docs && yarn lint && yarn test",
     "report-coverage": "codecov",
     "start": "concurrently -n \"build,test\" \"yarn build:dev\" \"yarn test:dev\"",
     "test": "jest --coverage",
