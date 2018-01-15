@@ -11,7 +11,7 @@ Provides [react-notification-system](https://github.com/igorprado/react-notifica
 
 `yarn add with-notifications-system`
 
-[![Demo image](example/example-screenshot.png)](dean177.github.io/with-notification-system/)
+[![Demo image](example/demo.gif)](https://dean177.github.io/with-notification-system/)
 
 
 ## Usage
