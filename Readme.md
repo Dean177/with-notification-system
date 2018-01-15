@@ -1,7 +1,7 @@
 # with-notification-system
 
 [![CircleCI](https://circleci.com/gh/Dean177/with-notification-system.svg?style=shield)](https://circleci.com/gh/Dean177/with-notification-system)
-[![codecov](https://codecov.io/gh/Dean177/jest-to-match-shape-of/branch/master/graph/badge.svg)](https://codecov.io/gh/Dean177/with-notification-system)
+[![codecov](https://codecov.io/gh/Dean177/with-notification-system/branch/master/graph/badge.svg)](https://codecov.io/gh/Dean177/with-notification-system)
 [![Npm](https://badge.fury.io/js/with-notification-system.svg)](https://www.npmjs.com/package/with-notification-system)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Dean177/with-notification-system.svg)](https://greenkeeper.io/)
 
