@@ -35,9 +35,6 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
     ],
-    "coverageReporters": [
-      "text"
-    ],
     "mapCoverage": true,
     "moduleFileExtensions": [
       "ts",
