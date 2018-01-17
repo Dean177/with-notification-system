@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as SyntaxHighlighter from 'react-codemirror'
+import * as CodeMirror from 'react-codemirror'
 import {
   Notification,
   NotificationProps,
@@ -39,6 +39,13 @@ class DevErrorBoundary extends React.Component<{}, ErrorBoundaryState> {
     return this.props.children
   }
 }
+
+const SyntaxHighlight = (props: { mode?: { name: string }, code: string }) => (
+  <CodeMirror
+    options={{ mode: props.mode || { name: 'jsx', base: { name: 'javascript', typescript: true }}, theme: 'monokai' }}
+    value={props.code}
+  />
+)
 
 const ButtonGroup = ({ children }: { children: React.ReactNode }) =>
   <div className="ButtonGroup">{children}</div>
@@ -112,7 +119,7 @@ export const App = () => (
   <DevErrorBoundary>
     <NotificationSystemProvider className="App">
       <div className="App-header">
-        <h2>with-notification-system</h2>
+        <h1>with-notification-system</h1>
       </div>
       <div className="content">
         <div className="status-icons github-buttons">
@@ -121,7 +128,7 @@ export const App = () => (
             href="https://github.com/dean177/with-notification-system"
             data-size="mega"
             data-icon="octicon-star"
-            data-count-href="/igorprado/react-notification-system/stargazers"
+            data-count-href="/dean177/with-notification-system/stargazers"
             data-show-count="true"
             data-count-aria-label="# stargazers on GitHub"
             aria-label="Star dean177/with-notification-system on GitHub"
@@ -129,26 +136,25 @@ export const App = () => (
             Star
           </a>
           <a className="status-icon" href="https://circleci.com/gh/Dean177/with-notification-system">
-            <img src="https://circleci.com/gh/Dean177/with-notification-system.svg?style=svg" />
+            <img src="https://circleci.com/gh/Dean177/with-notification-system.svg?style=shield" />
+          </a>
+          <a className="status-icon" href="https://codecov.io/gh/Dean177/with-notification-system">
+            <img src="https://codecov.io/gh/Dean177/with-notification-system/branch/master/graph/badge.svg" />
+          </a>
+          <a className="status-icon" href="https://greenkeeper.io/">
+            <img src="https://badges.greenkeeper.io/Dean177/with-notification-system.svg" />
           </a>
           <a className="status-icon" href="https://www.npmjs.com/package/with-notification-system">
             <img src="https://badge.fury.io/js/with-notification-system.svg" alt="npm version" height="18" />
           </a>
         </div>
-        <h1>Installation</h1>
+        <h2>Installation</h2>
         <p>Install the dependencies</p>
-        <SyntaxHighlighter
-          options={{ mode: { name: 'shell' }, theme: 'monokai' }}
-          value={`yarn install with-notification-system`}
-        />
+        <SyntaxHighlight code={`yarn install with-notification-system`} mode={{ name: 'shell' }} />
 
         <p>Wrap your app in a {`<NotificationSystemProvider />`}</p>
-        <SyntaxHighlighter
-          options={{
-            mode: { name: 'jsx', base: { name: 'javascript', typescript: true }},
-            theme: 'monokai',
-          }}
-          value={`
+        <SyntaxHighlight
+          code={`
 const App = () =>
   <NotificationSystemProvider className="App">
     <div className="App-header">
@@ -162,11 +168,11 @@ const App = () =>
           `}
         />
 
-        <h1>Usage</h1>
+        <h2>Usage</h2>
 
-        <h2>Add a notification</h2>
+        <h3>Add a notification</h3>
         <EnhancedSingleNotification />
-        <SyntaxHighlighter
+        <CodeMirror
           options={{
             mode: { name: 'jsx', base: { name: 'javascript', typescript: true }},
             theme: 'monokai',
@@ -188,11 +194,11 @@ const App = () =>
       `}
         />
 
-        <h2>Add a notification with custom children</h2>
+        <h3>Add a notification with custom children</h3>
         <ButtonGroup>
           <SelfDismissButton />
         </ButtonGroup>
-        <SyntaxHighlighter
+        <CodeMirror
           options={{
             mode: { name: 'jsx', base: { name: 'javascript', typescript: true }},
             theme: 'monokai',
@@ -214,14 +220,10 @@ const App = () =>
 </button>
       `}
         />
-        <h4>Clear all notifications</h4>
+        <h3>Clear all notifications</h3>
         <RemoveAllButton />
-        <SyntaxHighlighter
-          options={{
-            mode: { name: 'jsx', base: { name: 'javascript', typescript: true }},
-            theme: 'monokai',
-          }}
-          value={`
+        <SyntaxHighlight
+          code={`
 <ButtonGroup>
   <button
     onClick={() => {
@@ -236,7 +238,7 @@ const App = () =>
   </button>
   <button onClick={props.notification.removeAll}>Remove them all!</button>
 </ButtonGroup>
-      `}
+          `}
         />
       </div>
     </NotificationSystemProvider>

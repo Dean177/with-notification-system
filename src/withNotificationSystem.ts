@@ -56,7 +56,7 @@ export const withNotifications = <OP>(WrappedComponent: ComponentType<OP & Notif
   class NotificationsWrapper extends Component<OP> {
     static contextTypes = { notificationSystem: PropTypes.any }
     displayName: string = `withNotifications(${WrappedComponent.displayName || WrappedComponent.name})`
-    notificationSystem: System = (null as any)
+    notificationSystem: System = (null as any) // tslint:disable-line:no-any
 
     componentWillMount() {
       if (this.context.notificationSystem == null) {
