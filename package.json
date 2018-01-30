@@ -22,7 +22,7 @@
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
     "jest": "21.2.1",
-    "jsdom": "11.4.0",
+    "jsdom": "11.6.2",
     "react": "16.2.0",
     "react-dom": "16.1.0",
     "react-test-renderer": "16.1.0",
