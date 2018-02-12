@@ -36,9 +36,9 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-notification-system@0.2.35":
-  version "0.2.35"
-  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.35.tgz#8db7cf4ded5c5cf5a1f2287820b820ac77c4bdec"
+"@types/react-notification-system@0.2.36":
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.36.tgz#7fe0c66030cabaff046838f26b7b2853c32b47ea"
   dependencies:
     "@types/react" "*"
 
