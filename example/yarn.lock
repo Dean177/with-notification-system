@@ -32,9 +32,9 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-notification-system@0.2.35":
-  version "0.2.35"
-  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.35.tgz#8db7cf4ded5c5cf5a1f2287820b820ac77c4bdec"
+"@types/react-notification-system@0.2.36":
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.36.tgz#7fe0c66030cabaff046838f26b7b2853c32b47ea"
   dependencies:
     "@types/react" "*"
 
@@ -4365,9 +4365,9 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
-react-notification-system@0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/react-notification-system/-/react-notification-system-0.2.16.tgz#9b9da20b0d34786b60057c52b42516ea1295374a"
+react-notification-system@0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/react-notification-system/-/react-notification-system-0.2.17.tgz#a60eddbb62225ad8f9fc5d7837546bf6cdb36818"
   dependencies:
     create-react-class "^15.5.1"
     object-assign "^4.0.1"
@@ -5717,12 +5717,12 @@ window-size@0.1.0:
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
 "with-notification-system@file:..":
-  version "0.9.0"
+  version "0.9.2"
   dependencies:
     "@types/prop-types" "15.5.2"
-    "@types/react-notification-system" "0.2.35"
+    "@types/react-notification-system" "0.2.36"
     prop-types "^15.6.0"
-    react-notification-system "0.2.16"
+    react-notification-system "0.2.17"
 
 wordwrap@0.0.2:
   version "0.0.2"

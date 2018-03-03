@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/prop-types": "15.5.2",
     "@types/react-notification-system": "0.2.36",
-    "prop-types": "^15.6.0",
+    "prop-types": "^15.6.1",
     "react-notification-system": "0.2.17"
   },
   "peerDependencies": {
@@ -15,21 +15,21 @@
   "devDependencies": {
     "@types/enzyme": "3.1.9",
     "@types/jest": "22.1.4",
-    "@types/react": "16.0.21",
+    "@types/react": "16.0.40",
     "@types/react-dom": "16.0.4",
     "codecov": "3.0.0",
     "concurrently": "3.5.1",
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
-    "jest": "21.2.1",
+    "jest": "22.4.2",
     "jsdom": "11.6.2",
-    "react": "16.2.0",
-    "react-dom": "16.1.0",
-    "react-test-renderer": "16.1.0",
+    "react": "16.3.0-alpha.1",
+    "react-dom": "16.2.0",
+    "react-test-renderer": "16.2.0",
     "ts-jest": "22.4.1",
-    "tslint": "5.9.0",
-    "tslint-react": "3.5.0",
-    "typescript": "2.6.2"
+    "tslint": "5.9.1",
+    "tslint-react": "3.5.1",
+    "typescript": "2.7.2"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -59,7 +59,7 @@
   "types": "dist/withNotificationSystem.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "build:dev": "tsc --pretty --watch",
+    "build:dev": "tsc --watch",
     "build:docs": "rm -rf ./docs && cd example && yarn && rm -rf ./node_modules/with-notification-system/node_modules/react && yarn build && cp -r ./build ../docs",
     "lint": "tslint src/**/*.tsx src/**/*.ts examples/src/**",
     "prepublish": "yarn build && yarn build:docs && yarn lint && yarn test",
