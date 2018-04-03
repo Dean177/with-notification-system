@@ -25,22 +25,22 @@
     "@types/codemirror" "*"
     "@types/react" "*"
 
-"@types/react-dom@16.0.2":
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.2.tgz#2da9de21fd83f0140b64794ad9c47930230aedae"
+"@types/react-dom@16.0.4":
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.4.tgz#2e8fd45f5443780ed49bf2cdd9809e6091177a7d"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-notification-system@0.2.35":
-  version "0.2.35"
-  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.35.tgz#8db7cf4ded5c5cf5a1f2287820b820ac77c4bdec"
+"@types/react-notification-system@0.2.37":
+  version "0.2.37"
+  resolved "https://registry.yarnpkg.com/@types/react-notification-system/-/react-notification-system-0.2.37.tgz#2e4064be4b15fc24c91a8f708587c9b95bfc8507"
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@16.0.20":
-  version "16.0.20"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.20.tgz#dc16feb9c0bdf50e439482c6fd3c43d5a1d9f3b1"
+"@types/react@*", "@types/react@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.2.tgz#8dd45796b33160c60ddf1de068f45729214668bb"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -4352,9 +4352,9 @@ react-dev-utils@^4.0.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
+react-dom@16.3.0:
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.0.tgz#b318e52184188ecb5c3e81117420cca40618643e"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -4365,9 +4365,9 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
-react-notification-system@0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/react-notification-system/-/react-notification-system-0.2.16.tgz#9b9da20b0d34786b60057c52b42516ea1295374a"
+react-notification-system@0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/react-notification-system/-/react-notification-system-0.2.17.tgz#a60eddbb62225ad8f9fc5d7837546bf6cdb36818"
   dependencies:
     create-react-class "^15.5.1"
     object-assign "^4.0.1"
@@ -4409,9 +4409,9 @@ react-scripts-ts@2.8.0:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
+react@16.3.0:
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.3.0.tgz#fc5a01c68f91e9b38e92cf83f7b795ebdca8ddff"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -5717,12 +5717,12 @@ window-size@0.1.0:
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
 "with-notification-system@file:..":
-  version "0.9.0"
+  version "0.9.2"
   dependencies:
     "@types/prop-types" "15.5.2"
-    "@types/react-notification-system" "0.2.35"
+    "@types/react-notification-system" "0.2.37"
     prop-types "^15.6.0"
-    react-notification-system "0.2.16"
+    react-notification-system "0.2.17"
 
 wordwrap@0.0.2:
   version "0.0.2"
