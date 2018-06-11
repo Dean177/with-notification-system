@@ -27,9 +27,9 @@
     "@types/cheerio" "*"
     "@types/react" "*"
 
-"@types/jest@22.2.3":
-  version "22.2.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
+"@types/jest@23.0.1":
+  version "23.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.0.1.tgz#c60dbed0bac210343d5dd0413744d6c8d0afac47"
 
 "@types/node@*":
   version "8.0.47"
